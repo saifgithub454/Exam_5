@@ -1,0 +1,129 @@
+body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .navbar {
+            height: 90px;
+            background-color: #343a40;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar .company-logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .sidebar {
+            height: calc(100vh - 90px);
+            background-color: #1c2331;
+            color: white;
+            padding: 20px;
+        }
+
+        .sidebar .user-box {
+            background-color: #3a3f44;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .sidebar .user-box img {
+            width: 60px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .sidebar .nav-link {
+            color: #ddd;
+            margin-bottom: 10px;
+        }
+
+        .sidebar .nav-link.active {
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .logout-btn {
+            /* position: absolute; */
+            bottom: 20px;
+            left: 10%;
+            right: 10%;
+            width: 100%;
+        }
+
+        .main-content {
+            padding: 20px;
+            height: calc(100vh - 90px);
+            overflow-y: auto;
+        }
+
+        .home-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .home-stats .card {
+            width: 23%;
+            background-color: #00695c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .home-stats .card i {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Home Section Cards */
+        #home .card {
+            height: 180px;
+            width: 200px;
+            margin: 0 auto;
+        }
+
+        #home .card img {
+            height: 100px;
+            object-fit: cover;
+        }
+
+        #home .card-title {
+            font-size: 1.2rem;
+        }
+
+        #home .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .row-cols-1 .col,
+        .row-cols-md-2 .col,
+        .row-cols-lg-4 .col {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* End of Home Section Cards */
+
+
+
+        .table-responsive {
+            margin-top: 20px;
+        }
+
+        .content {
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
